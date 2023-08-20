@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html', {
-    "title": "Dellmayer"
-  })
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dellmayer</title>
+  <link rel="stylesheet" href="./styles/main.scss">
+</head>
+
   <body class="page__body">
-    @@include('html/header.html', {})
+    <header class="header">
+  <nav class="menu">
+    <ul class="menu__list">
+      <li class="menu__item">HOME</li>
+      <li class="menu__item">HISTORY</li>
+      <li class="menu__item">PRODUCT</li>
+      <li class="menu__item">SPECIFICATION</li>
+      <li class="menu__item">IN THE BOX</li>
+      <li class="menu__item">CONTACT</li>
+    </ul>
+  </nav>
+</header>
     <main></main>
-    @@include('html/footer.html', {})
+    <footer></footer>
   </body>
 </html>
