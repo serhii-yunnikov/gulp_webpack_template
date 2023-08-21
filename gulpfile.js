@@ -2,11 +2,14 @@
 import gulp from "gulp";
 //import of paths
 import { path } from "./gulp/config/path.js";
+//import plugins
+import { plugins } from "./gulp/config/plugins.js";
 
 //pass a value to the global variable
 global.app = {
   path: path,
   gulp: gulp,
+  plugins: plugins
 }
 
 //import tasks
