@@ -1,4 +1,1 @@
-body {
-  background-color: black;
-  color: aqua;
-}
+body{background-color:#000;color:#0ff}.header{border:1px solid #8a2be2}.menu{list-style:none}.no-web main{background:url(../img/space.jpeg) 0 0 no-repeat}@media (max-width:768px){.header{background-color:#fff}.header{background-color:#c30f0f}}.webp main{background:url(../img/space.webp) 0 0 no-repeat}
