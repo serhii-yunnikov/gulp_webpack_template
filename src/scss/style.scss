@@ -1,4 +1,24 @@
+// gulp-webp-css
+
+@supports (-webkit-appearance: none) {
+  body {
+    background: url(.../img/icons/close.svg) 0 0 no-repeat;
+  }
+
+  .block {
+    background: url(.../img/cover.webp) 0 0 no-repeat;
+  }
+}
+
 body {
-  background-color: black;
-  color: aqua;
+  background-color: #000000;
+  color: #00ffff;
+}
+
+.header {
+  border: 1px solid #8a2be2;
+}
+
+.menu {
+  list-style: none;
 }
