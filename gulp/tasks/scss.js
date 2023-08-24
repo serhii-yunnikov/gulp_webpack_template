@@ -24,7 +24,7 @@ export const scss = () => {
     .pipe(webpcss(
       {
         webpClass: ".webp",
-        noWebClass: ".no-web"
+        noWebpClass: ".no-web"
       }
     ))
     .pipe(autoprefixer({
