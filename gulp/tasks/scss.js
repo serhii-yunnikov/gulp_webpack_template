@@ -16,7 +16,7 @@ export const scss = () => {
       outputStyle: 'expanded'
     }))
     .pipe(rename({
-      extname: '.min.scss'
+      extname: '.min.css'
     }))
     .pipe(app.gulp.dest(app.path.build.css))
     .pipe(app.plugins.browsersync.stream());
