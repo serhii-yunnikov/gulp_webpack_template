@@ -1,4 +1,8 @@
+@import "fonts";
+
 body {
+  font-family: 'CormorantUpright';
+  font-size: 500;
   background-color: #000000;
   color: #00ffff;
 }
@@ -8,7 +12,10 @@ body {
 }
 
 .menu {
-  list-style: none;
+
+  &__list {
+    list-style: none;
+  }
 }
 
 main {
