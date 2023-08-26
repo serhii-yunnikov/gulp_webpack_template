@@ -38,7 +38,7 @@ export const ttfToWoff = () => {
     .pipe(app.gulp.src(`${app.path.srcFolder}/fonts/*.ttf`))
     // conveting into .woff2
     .pipe(ttf2woff2())
-    //upload into result folder
+    // upload into result folder
     .pipe(app.gulp.dest(`${app.path.build.fonts}`));
 };
 
