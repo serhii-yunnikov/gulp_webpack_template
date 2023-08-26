@@ -46,8 +46,8 @@ use latest Node
 
   after running find:
 
-    - sprite in ***dist/img/icons/icons.svg***;
-    - settings tutorial in ***dist/img/icons/stack/sprite.stack.html***;
+    - sprite in `dist/img/icons/icons.svg`;
+    - settings tutorial in `dist/img/icons/stack/sprite.stack.html`;
 
 ##### ***Production version includes:***
 
