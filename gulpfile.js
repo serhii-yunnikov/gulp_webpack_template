@@ -20,6 +20,7 @@ import { images } from "./gulp/tasks/images.js";
 import { otfToTtf, ttfToWoff, fontStyle } from "./gulp/tasks/fonts.js";
 import { zip } from "./gulp/tasks/zip.js";
 import { ftp } from "./gulp/tasks/ftp.js";
+import { svgSprive } from "./gulp/tasks/svgSprive.js";
 
 function watcher() {
   gulp.watch(path.watch.files, copy);
@@ -28,6 +29,8 @@ function watcher() {
   gulp.watch(path.watch.js, js);
   gulp.watch(path.watch.images, images);
 }
+
+export { svgSprive };
 
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontStyle);
 
