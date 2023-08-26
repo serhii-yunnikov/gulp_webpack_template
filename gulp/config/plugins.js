@@ -11,5 +11,5 @@ export const plugins = {
   notify: notify,
   browsersync: browsersync,
   newer: newer,
-  if: ifPlugin,
+  if: ifPlugin
 }
