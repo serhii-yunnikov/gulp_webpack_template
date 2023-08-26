@@ -1,12 +1,13 @@
 # Template for landing
+
 ## using **Gulp** and **Webpack**
 
 ### quick start
 
-`npm i` - install packages
+`npm i` - install packages,
 use latest Node
 
-### modes:
+### modes
 
 1. #### development
 
@@ -22,12 +23,14 @@ use latest Node
 
   set **FTP** data in ***gulp/config/ftp.js***:
 
-  `export let configFTP = {
+  ```javascript
+  export let configFTP = {
     host: "", // address FTP server
     user: "", // user name
     password: "", // password
     parallel: 5 // number of streams
-  }`
+  }
+  ```
 
   after runnig data should store in the ***test*** folder on the remote server
 
@@ -42,15 +45,16 @@ use latest Node
   `npm run svgSprive`
 
   after running find:
+
     - sprite in ***dist/img/icons/icons.svg***;
     - settings tutorial in ***dist/img/icons/stack/sprite.stack.html***;
 
 ##### ***Production version includes:***
 
-  - converting images into **WebP** format;
-  - group media queries;
-  - autoprefixer;
-  - files minification(app.min.js, style.min.js);
-  - tracking files via **gulp-newer**;
-  - converting fonts into light version **woff** and **woff2**;
-  - **ES6** support;
+- converting images into **WebP** format;
+- group media queries;
+- autoprefixer;
+- files minification(app.min.js, style.min.js);
+- tracking files via **gulp-newer**;
+- converting fonts into light version **woff** and **woff2**;
+- **ES6** support;
